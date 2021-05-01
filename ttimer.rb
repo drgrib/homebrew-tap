@@ -2,16 +2,16 @@
 class Ttimer < Formula
   desc ""
   homepage "https://github.com/drgrib/ttimer"
-  version "1.0.9"
+  version "1.0.10"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/drgrib/ttimer/releases/download/v1.0.9/ttimer_1.0.9_darwin_amd64.tar.gz"
-    sha256 "26df32bdfc1386f04a631bb380b9b75a1198b73a339f8b3a54a455d0f74f8bf7"
+    url "https://github.com/drgrib/ttimer/releases/download/v1.0.10/ttimer_1.0.10_darwin_amd64.tar.gz"
+    sha256 "e224d74d5a81bebd8251148d7f47917d7c34da2522f5f3ab21e4841183907a1b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/drgrib/ttimer/releases/download/v1.0.9/ttimer_1.0.9_linux_amd64.tar.gz"
-      sha256 "d9236e461ef35a70677c2a52b64aa94b140607b3dad4ff6f0c7ca0e93c122244"
+      url "https://github.com/drgrib/ttimer/releases/download/v1.0.10/ttimer_1.0.10_linux_amd64.tar.gz"
+      sha256 "4fd7daeed636b16f7d448c48fc7dd7306797cf38f55050508ccd9ba18f2e3a28"
     end
   end
 
